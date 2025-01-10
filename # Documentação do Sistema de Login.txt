@@ -1,0 +1,90 @@
+# Documentação do Sistema de Login 
+
+## Como funciona o sistema
+
+O sistema de login que eu fiz é bem simples e usa HTML, CSS e JavaScript. Ele tem uma tela bonita de login onde o usuário digita seu nome e senha.
+
+### O que usei no código:
+
+**HTML:**
+- Uma tela de login bonitinha
+- Campos pra colocar usuário e senha
+- Botão de entrar
+- Um lugar pra mostrar mensagem de erro
+
+**CSS:**
+- Fiz um design moderno
+- Tudo centralizado na tela
+- Cores legais (verde no botão)
+- Funciona bem no celular também
+
+**JavaScript:**
+- Criei uns usuários de teste pra gente poder testar:
+  - usuario1 (senha: senha123)
+  - admin (senha: admin123)
+
+### Como testar:
+
+1. Salva o código num arquivo .html
+2. Abre no navegador
+3. Tenta entrar com os usuários de teste que criei
+
+### O que o sistema faz:
+
+- Checa se você preencheu tudo
+- Verifica se o usuário e senha estão certos
+- Mostra mensagem de erro se algo der errado
+- A mensagem de erro some depois de 3 segundos
+- Avisa quando o login deu certo
+
+# Documentação do Cadastro de Colaborador
+
+## Como funciona o sistema
+
+Fiz uma tela de cadastro pro primeiro login dos colaboradores da empresa. É um formulário simples em HTML que coleta todas as informações importantes do funcionário.
+
+### O que tem no código:
+
+**HTML:**
+- Um formulário completo de cadastro
+- Campo pro nome do colaborador
+- Campos pros documentos (CPF e RG)
+- Data de nascimento
+- Cargo/função na empresa
+- Contatos (email e telefone)
+- Endereço completo
+- Data de admissão
+
+### Campos do formulário:
+
+1. **Dados Pessoais:**
+   - Nome completo
+   - CPF (campo numérico)
+   - RG (campo numérico)
+   - Data de nascimento (calendário)
+
+2. **Dados Profissionais:**
+   - Cargo ou função
+   - Data de admissão (calendário)
+
+3. **Contato:**
+   - Email
+   - Telefone/celular
+
+4. **Endereço:**
+   - Endereço completo
+   - Cidade e Estado
+
+### O que dá pra melhorar:
+
+- Colocar CSS pra ficar mais bonito
+- Adicionar validação dos campos em JavaScript
+- Arrumar alguns errinhos tipo:
+  - Os IDs tão todos como "username"
+  - Faltou fechar algumas divs
+  - O campo de telefone podia ter máscara
+  - O CPF e RG podiam ter validação
+- Adicionar botão de "Salvar" ou "Cadastrar"
+- Colocar mensagem de sucesso quando cadastrar
+- Fazer a conexão com um banco de dados
+
